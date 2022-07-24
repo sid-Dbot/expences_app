@@ -6,7 +6,7 @@ import '../models/transaction.dart';
 class TransactionList extends StatelessWidget {
   final List<Transaction> _Transactions;
   final Function deletetx;
-  TransactionList(this._Transactions, this.deletetx);
+  const TransactionList(this._Transactions, this.deletetx);
 
   @override
   Widget build(BuildContext context) {
